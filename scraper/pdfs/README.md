@@ -18,8 +18,8 @@ This script allows you to scrape a webpage for PDF links and download all the PD
 Clone this repository to your local machine.
 
 ```sh
-git clone https://github.com/brainzcode/google_maps_business/tree/main/scraper/pdfs
-cd pdfs
+git clone https://github.com/brainzcode/google_maps_business.git
+cd /scraper/pdfs
 ```
 
 ### 2. Install Dependencies
