@@ -19,7 +19,7 @@ Clone this repository to your local machine.
 
 ```sh
 git clone https://github.com/brainzcode/google_maps_business/tree/main/scraper/pdfs
-cd pdf-downloader
+cd pdfs
 ```
 
 ### 2. Install Dependencies
