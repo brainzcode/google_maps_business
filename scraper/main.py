@@ -197,12 +197,12 @@ def main():
                     reviews_average_xpath = '//div[@jsaction="pane.reviewChart.moreReviews"]//div[@role="img"]'
                     book_a_table = "//div[2]/div[5]/div/a/div"
 
+                    business = Business()
+
                     # Check for the presence of "book a table"
                     if page.locator(book_a_table).count() > 0:
                         print("Skipping business with 'Book a Table' option")
                         continue
-
-                    business = Business()
 
                     if page.locator(business_name_xpath).count() > 0:
                         business.name = page.locator(business_name_xpath).inner_text()
