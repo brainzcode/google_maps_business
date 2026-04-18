@@ -1,6 +1,7 @@
 playwright
-playwright-stealth
 pandas
 openpyxl
+curl_cffi
 pytest
 pytest-asyncio
+beautifulsoup4

@@ -1,3 +1,18 @@
 scrape/
 scrape_one/
 External Libraries/
+LEADS_PIPELINE_PLAN.md
+premium-scraper-prompt.md
+SCRAPER_PROMPT.md
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Scrape outputs
+output/
