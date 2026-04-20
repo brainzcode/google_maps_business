@@ -1,6 +1,8 @@
 # Google Maps Business Scraper
 
-Async, stealth-enabled scraper that extracts business data from Google Maps search results. Built with Playwright and hardened against detection through playwright-stealth, user-agent rotation, human-like timing, per-listing retry logic, block-page detection, and a built-in **proxy pool with four rotation strategies**.
+Async, stealth-enabled scraper that extracts business data from Google Maps search results. Built with Playwright and hardened against detection through playwright-stealth, user-agent rotation, human-like timing, per-listing retry logic, block-page detection, and a built-in **proxy pool with five rotation strategies**.
+
+> Part of the [Google Maps + SERP Scrapers toolkit](../README.md) by [Luminous Digital Visions](https://luminousdigitalvisions.com). See also the [Google SERP Scraper](../google_search/README.md) for ranking and SERP-feature extraction.
 
 ---
 
@@ -452,6 +454,16 @@ python -m google_maps.main -s "coffee in Portland" -t 5
 **Slow scrolling**
 - The delays between scrolls are intentionally slow (1.8-3.5s) to avoid detection. Tune `scroll_delay_min`/`max` in `config.py`. Going too fast risks blocks.
 
+## Coming soon — Luminous Lead Studio
+
+We are building a full lead generation and SEO studio on top of this scraper: a single platform that handles lead discovery and enrichment, the full outreach pipeline, a complete technical SEO audit, and advanced competitor analysis — for any industry.
+
+**Join the waitlist at [luminousdigitalvisions.com](https://luminousdigitalvisions.com).**
+
 ## Disclaimer
 
 This tool is for educational and research purposes. Check Google's Terms of Service before running large-scale scrapes. Use responsibly — add proxies, respect reasonable delays, and consider the target's published rate limits.
+
+---
+
+Repo: [github.com/brainzcode/google_maps_business](https://github.com/brainzcode/google_maps_business) · Built by [Luminous Digital Visions](https://luminousdigitalvisions.com)

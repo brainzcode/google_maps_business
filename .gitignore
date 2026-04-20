@@ -16,3 +16,6 @@ __pycache__/
 
 # Scrape outputs
 output/
+
+# Content drafts
+content/

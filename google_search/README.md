@@ -2,6 +2,8 @@
 
 A production-grade, async Google Search Results Page scraper with multi-layer anti-detection, retry logic, and comprehensive SERP feature extraction.
 
+> Part of the [Google Maps + SERP Scrapers toolkit](../README.md) by [Luminous Digital Visions](https://luminousdigitalvisions.com). See also the [Google Maps Business Scraper](../google_maps/README.md) for business listing, phone, and geo extraction.
+
 ## What it extracts
 
 | Feature | Fields |
@@ -378,6 +380,16 @@ Google has flagged your IP. Options:
 **Chrome not found**
 The scraper falls back to Playwright's bundled Chromium automatically. For best anti-detection, install Google Chrome on your system.
 
+## Coming soon — Luminous Lead Studio
+
+We are building a full lead generation and SEO studio on top of this scraper: a single platform that handles lead discovery and enrichment, the full outreach pipeline, a complete technical SEO audit, and advanced competitor analysis — for any industry.
+
+**Join the waitlist at [luminousdigitalvisions.com](https://luminousdigitalvisions.com).**
+
 ## Disclaimer
 
 This tool is for educational and research purposes. Scraping Google Search results may violate Google's Terms of Service. Use responsibly, respect rate limits, and consider using official APIs (Google Custom Search JSON API) for production workloads.
+
+---
+
+Repo: [github.com/brainzcode/google_maps_business](https://github.com/brainzcode/google_maps_business) · Built by [Luminous Digital Visions](https://luminousdigitalvisions.com)
